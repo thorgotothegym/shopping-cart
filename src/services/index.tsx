@@ -1,4 +1,4 @@
-import { AddProduct, Product } from "../models";
+import { AddProduct, Product } from "../interfaces";
 
 export const getAllProducts = async (): Promise<Product> => {
   const response = await fetch(`https://fakestoreapi.com/products`);
